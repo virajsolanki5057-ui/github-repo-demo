@@ -8,6 +8,8 @@ const ApplicationForm = () => {
     mobile: "",
     gender: "",
     course: "",
+    city: " ",
+    country: " ",
     agree: false,
   });
 
