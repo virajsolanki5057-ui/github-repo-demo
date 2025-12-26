@@ -24,7 +24,7 @@ const ApplicationForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Submitted Data:", formData);
-    alert("Application Submitted Successfully");
+    alert(" Successfully");
   };
 
   return (
