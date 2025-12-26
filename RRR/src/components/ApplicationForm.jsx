@@ -11,7 +11,7 @@ const ApplicationForm = () => {
     agree: false,
   });
 
-  // Handle input change
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormData((prev) => ({
@@ -20,11 +20,10 @@ const ApplicationForm = () => {
     }));
   };
 
-  // Handle form submit
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Submitted Data:", formData);
-    alert(" Successfully");
+    alert("Application Submitted Successfully");
   };
 
   return (
